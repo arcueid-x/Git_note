@@ -196,4 +196,20 @@ git config log.abbrevCommit true//使得SHA缩写展示
 
 ---
 
+### git删除文件操作
+
+*git rm --cached <file>：* 仅从Git仓库删除文件
+
+*git rm <file>：* 从Git仓库和本地同时删除文件
+
+---
+
+### git文件重命名操作
+
+*git mv <old_filename> <new_filename>：* 文件重新命名
+
+*git commit -m "operation"：* 提交该改名操作
+
+---
+
 
